@@ -44,7 +44,6 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : Auditabl
         await File.WriteAllTextAsync(Path, result);
 
         return entity;
-        throw new NotImplementedException();
     }
 
     public async Task<List<TEntity>> SelectAllAsync()
