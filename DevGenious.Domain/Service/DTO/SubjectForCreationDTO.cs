@@ -1,6 +1,5 @@
 ﻿namespace DevGenious.Domain.Service.DTO;
-
-public class SubjectForCreationDTO : AuditableForCreationDTO
+public class SubjectForCreationDTO 
 {
     public string Name { get; set; }
     public decimal Price { get; set; }
