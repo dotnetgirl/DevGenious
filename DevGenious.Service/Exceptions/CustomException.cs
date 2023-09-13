@@ -1,4 +1,5 @@
-﻿namespace DevGenious.Domain.Service.Exceptions;
+﻿namespace DevGenious.Service.Exceptions;
+
 public class CustomException : Exception
 {
     public int StatusCode { get; set; }
