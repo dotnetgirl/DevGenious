@@ -6,5 +6,5 @@ public interface IRepository<TEntity>
     public Task<TEntity> UpdateAsync(TEntity entity);
     public Task<bool> DeleteAsync(long id);
     public Task<TEntity> SelectByIdAsync(long id);
-    public Task<IEnumerable<TEntity>> SelectAllAsync();
+    public Task<List<TEntity>> SelectAllAsync();
 }
